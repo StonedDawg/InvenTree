@@ -51,9 +51,9 @@ debug_shell: False
 #admin_url: 'admin'
 
 # Add new user on first startup by either adding values here or from a file
-#admin_user: admin
-#admin_email: info@example.com
-#admin_password: inventree
+admin_user: admin
+admin_email: info@example.com
+admin_password: inventree
 #admin_password_file: '/etc/inventree/admin_password.txt'
 
 # Configure the system logging level (or use environment variable INVENTREE_LOG_LEVEL)
@@ -221,19 +221,19 @@ ldap:
 
 # Customization options
 # Ref: https://docs.inventree.org/en/stable/start/config/#customization-options
-# customize:
-#   site_header: 'Custom Admin Panel'  # Django admin panel header text
-#   login_message: InvenTree demo instance - <a href='https://inventree.org/demo.html'> Click here for login details</a>
-#   navbar_message: <h6>InvenTree demo mode <a href='https://inventree.org/demo.html'><span class='fas fa-info-circle'></span></a></h6>
-#   hide_admin_link: true
+customize:
+  site_header: 'Admin Panel'  # Django admin panel header text
+  login_message: treedawg instance - <a href='https://inventree.org/demo.html'> Click here for login details</a>
+  navbar_message: <h6>treedawg demo mode <a href='https://inventree.org/demo.html'><span class='fas fa-info-circle'></span></a></h6>
+  hide_admin_link: true
 #   hide_password_reset: true
 #   disable_theme_storage: true
-#   logo: img/custom_logo.png
-#   splash: img/custom_splash.jpg
+  logo: img/custom_logo.png
+  splash: img/custom_splash.jpg
 
 # Override global settings
-#global_settings:
-#  INVENTREE_DEFAULT_CURRENCY: 'CNY'
+global_settings:
+  INVENTREE_DEFAULT_CURRENCY: 'USD'
 #  INVENTREE_RESTRICT_ABOUT: true
 
 # Storage configuration
