@@ -1,0 +1,2 @@
+import{ap as e,r}from"./index-BBBzPPmc.js";import{u}from"./UseInstance-C3oA0Iqv.js";const a=()=>{const n=u({endpoint:e.plugin_list,defaultValue:[],hasPrimaryKey:!1,refetchOnMount:!0,refetchOnWindowFocus:!1,params:{active:!0}}),i=r.useCallback(t=>n.instance.filter(s=>!!s.mixins[t]),[n.instance]);return{plugins:n.instance,withMixin:i}},c=n=>a().withMixin(n);export{c as u};
+//# sourceMappingURL=UsePlugins-CJAMV98a.js.map

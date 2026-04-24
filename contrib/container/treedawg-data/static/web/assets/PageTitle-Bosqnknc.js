@@ -1,0 +1,2 @@
+import{az as E,r as i,j as c}from"./index-BBBzPPmc.js";function f({title:t,subtitle:n}){const s=E(),a=i.useMemo(()=>{const o=s.getSetting("INVENTREE_INSTANCE","InvenTree"),r=s.isSet("INVENTREE_INSTANCE_TITLE",!1);let e="";return t&&(e+=t),n&&(e+=` - ${n}`),r&&(e=`${o} | ${e}`),e||(e=o),e},[t,n,s]);return i.useEffect(()=>{document.title=a},[a]),c.jsx("title",{children:a})}export{f as P};
+//# sourceMappingURL=PageTitle-Bosqnknc.js.map

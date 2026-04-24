@@ -1,0 +1,2 @@
+import{j as n,ac as a,Q as m}from"./index-BBBzPPmc.js";import{A as u}from"./ThemeContext-DoMkjjFq.js";function l({title:r,tooltip:o,icon:t,color:s,hidden:e,onClick:i}){return e?null:n.jsx(a,{label:o??r,position:"bottom",hidden:!o,children:n.jsx(m,{leftSection:t&&n.jsx(u,{icon:t}),color:s,radius:"sm",p:"xs",onClick:i,children:r})})}export{l as P};
+//# sourceMappingURL=PrimaryActionButton-RRHA6Zi6.js.map

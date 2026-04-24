@@ -1,0 +1,2 @@
+import{r as e}from"./index-BBBzPPmc.js";function l(){const[o,u]=e.useState(!1),r=e.useRef(null),s=e.useCallback(()=>{u(!0)},[]),n=e.useCallback(()=>{u(!1)},[]);return{ref:e.useCallback(t=>{r.current&&(r.current.removeEventListener("mouseenter",s),r.current.removeEventListener("mouseleave",n)),t&&(t.addEventListener("mouseenter",s),t.addEventListener("mouseleave",n)),r.current=t},[s,n]),hovered:o}}export{l as u};
+//# sourceMappingURL=use-hover-BZ9BoB5Y.js.map

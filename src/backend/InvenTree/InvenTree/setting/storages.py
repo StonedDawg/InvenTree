@@ -49,7 +49,7 @@ def init_storages() -> tuple[str, dict, Optional[str]]:
         s3_location = get_setting(
             'INVENTREE_S3_LOCATION',
             'storage.s3.location',
-            'inventree-server',
+            'treedawg-server',
             typecast=str,
         )
 
@@ -87,7 +87,7 @@ def init_storages() -> tuple[str, dict, Optional[str]]:
             'location': get_setting(
                 'INVENTREE_SFTP_LOCATION',
                 'sftp.location',
-                'inventree-server',
+                'treedawg-server',
                 typecast=str,
             ),
             'params': get_setting(

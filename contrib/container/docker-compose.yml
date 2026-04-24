@@ -70,10 +70,10 @@ services:
 
     # InvenTree web server service
     # Uses gunicorn as the web server
-    inventree-server:
+    treedawg-server:
         # If you wish to specify a particular InvenTree version, do so here
         image: inventree/inventree:${INVENTREE_TAG:-stable}
-        container_name: inventree-server
+        container_name: treedawg-server
         # Only change this port if you understand the stack.
         expose:
             - ${INVENTREE_WEB_PORT:-8000}
@@ -83,7 +83,7 @@ services:
         env_file:
             - .env
         environment:
-          INVENTREE_SERVER: http://inventree-server:${INVENTREE_WEB_PORT}
+          INVENTREE_SERVER: http://treedawg-server:${INVENTREE_WEB_PORT}
         volumes:
             # Data volume must map to /home/inventree/data
             - ${INVENTREE_EXT_VOLUME}:/home/inventree/data:z
@@ -96,7 +96,7 @@ services:
         container_name: inventree-worker
         command: invoke worker
         depends_on:
-            - inventree-server
+            - treedawg-server
         env_file:
             - .env
         volumes:
@@ -112,7 +112,7 @@ services:
         image: caddy:alpine
         restart: always
         depends_on:
-            - inventree-server
+            - treedawg-server
         ports:
             - ${INVENTREE_HTTP_PORT:-80}:80
             - ${INVENTREE_HTTPS_PORT:-443}:443
