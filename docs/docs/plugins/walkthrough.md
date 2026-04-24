@@ -15,7 +15,7 @@ By the end of the walkthrough, you will have created a plugin that adds a new pa
 This is a basic walkthrough and not a guide on how to code in Python or React. It is presumed you have the following,
 
 * A running Inventree instance and/or a [devcontainer](https://docs.inventree.org/en/stable/develop/devcontainer/)
-* The [Inventree Plugin Creator](https://github.com/inventree/plugin-creator) installed
+* The [Inventree Plugin Creator](https://github.com/stoneddawg/plugin-creator) installed
 * [Visual Studio Code (VS Code)](https://code.visualstudio.com/) (or an IDE of your choosing)
 * [Node Package Manager](https://www.npmjs.com/) installed
 * Basic Python knowledge

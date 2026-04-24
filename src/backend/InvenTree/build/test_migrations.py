@@ -82,7 +82,7 @@ class TestReferenceMigration(MigratorTestCase):
 class TestReferencePatternMigration(MigratorTestCase):
     """Unit test for data migration which converts reference to new format.
 
-    Ref: https://github.com/inventree/InvenTree/pull/3267
+    Ref: https://github.com/stoneddawg/InvenTree/pull/3267
     """
 
     migrate_from = ('build', '0019_auto_20201019_1302')
@@ -132,7 +132,7 @@ class TestReferencePatternMigration(MigratorTestCase):
 class TestBuildLineCreation(MigratorTestCase):
     """Test that build lines are correctly created for existing builds.
 
-    Ref: https://github.com/inventree/InvenTree/pull/4855
+    Ref: https://github.com/stoneddawg/InvenTree/pull/4855
 
     This PR added the 'BuildLine' model, which acts as a link between a Build and a BomItem.
 

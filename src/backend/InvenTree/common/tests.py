@@ -1295,7 +1295,7 @@ class NotificationTest(InvenTreeAPITestCase):
         self.get(url, expected_code=200)
 
         # Test the OPTIONS endpoint for the 'api-notification-list'
-        # Ref: https://github.com/inventree/InvenTree/pull/3154
+        # Ref: https://github.com/stoneddawg/InvenTree/pull/3154
         response = self.options(url)
 
         self.assertIn('DELETE', response.data['actions'])

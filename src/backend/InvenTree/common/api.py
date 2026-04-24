@@ -894,7 +894,7 @@ class ParameterTemplateFilter(FilterSet):
         Notes:
             - This filter can only be applied if the 'exists_for_model' filter is also applied, as the model_id is only meaningful in the context of a particular model type.
 
-        Reference: https://github.com/inventree/InvenTree/issues/11381
+        Reference: https://github.com/stoneddawg/InvenTree/issues/11381
         """
         exists_for_model = self.request.query_params.get('exists_for_model', None)
 

@@ -530,7 +530,7 @@ def parameter_value(
 def part_parameter(instance, parameter_name):
     """Included for backwards compatibility - use 'parameter' tag instead.
 
-    Ref: https://github.com/inventree/InvenTree/pull/10699
+    Ref: https://github.com/stoneddawg/InvenTree/pull/10699
     """
     return parameter(instance, parameter_name)
 

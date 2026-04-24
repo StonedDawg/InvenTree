@@ -10,7 +10,7 @@ def get_spectacular_settings():
         'DESCRIPTION': 'API for InvenTree - the intuitive open source inventory management system',
         'LICENSE': {
             'name': 'MIT',
-            'url': 'https://github.com/inventree/InvenTree/blob/master/LICENSE',
+            'url': 'https://github.com/stoneddawg/InvenTree/blob/master/LICENSE',
         },
         'EXTERNAL_DOCS': {
             'description': 'More information about InvenTree in the official docs',

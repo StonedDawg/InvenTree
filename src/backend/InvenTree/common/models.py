@@ -2442,7 +2442,7 @@ class ParameterTemplate(
         verbose_name_plural = _('Parameter Templates')
 
         # Note: Data was migrated from the existing 'part_partparametertemplate' table
-        # Ref: https://github.com/inventree/InvenTree/pull/10699
+        # Ref: https://github.com/stoneddawg/InvenTree/pull/10699
         # To avoid data loss, we retain the existing table name
         db_table = 'part_partparametertemplate'
 
@@ -2638,7 +2638,7 @@ class Parameter(
         indexes = [models.Index(fields=['model_type', 'model_id'])]
 
         # Note: Data was migrated from the existing 'part_partparameter' table
-        # Ref: https://github.com/inventree/InvenTree/pull/10699
+        # Ref: https://github.com/stoneddawg/InvenTree/pull/10699
         # To avoid data loss, we retain the existing table name
         db_table = 'part_partparameter'
 
@@ -2738,7 +2738,7 @@ class Parameter(
 
         if self.data_numeric is not None and type(self.data_numeric) is float:
             # Prevent out of range numbers, etc
-            # Ref: https://github.com/inventree/InvenTree/issues/7593
+            # Ref: https://github.com/stoneddawg/InvenTree/issues/7593
             if math.isnan(self.data_numeric) or math.isinf(self.data_numeric):
                 self.data_numeric = None
 

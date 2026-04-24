@@ -161,7 +161,7 @@ class InvenTreeOrderingFilter(filters.OrderingFilter):
 
         # Ensure that any API filtering appends the primary-key field
         # This is to prevent "ambiguous ordering" errors across pagination boundaries
-        # Ref: https://github.com/inventree/InvenTree/issues/11442
+        # Ref: https://github.com/stoneddawg/InvenTree/issues/11442
         if lookup_field and not any(
             field in ordering for field in [lookup_field, f'-{lookup_field}']
         ):

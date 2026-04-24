@@ -2304,7 +2304,7 @@ class PartAPIAggregationTest(InvenTreeAPITestCase):
     def test_allocation_annotations(self):
         """Tests for query annotations which add allocation information.
 
-        Ref: https://github.com/inventree/InvenTree/pull/2797
+        Ref: https://github.com/stoneddawg/InvenTree/pull/2797
         """
         # We are looking at Part ID 100 ("Bob")
         url = reverse('api-part-detail', kwargs={'pk': 100})
@@ -3164,7 +3164,7 @@ class PartInternalPriceBreakTest(InvenTreeAPITestCase):
 
         # Now, ensure that we can delete the Part via the API
         # In particular this test checks that there are no circular post_delete relationships
-        # Ref: https://github.com/inventree/InvenTree/pull/3986
+        # Ref: https://github.com/stoneddawg/InvenTree/pull/3986
 
         # First, ensure the part instance can be deleted
         p = Part.objects.get(pk=1)

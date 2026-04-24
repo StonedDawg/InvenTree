@@ -5,9 +5,9 @@
 
 <!-- Badges -->
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/license/MIT)![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/inventree/inventree)[![Artifact Hub](https://img.shields.io/endpoint?url=https://artifacthub.io/badge/repository/inventree)](https://artifacthub.io/packages/search?repo=inventree)
-![CI](https://github.com/inventree/inventree/actions/workflows/qc_checks.yaml/badge.svg)
+![CI](https://github.com/stoneddawg/inventree/actions/workflows/qc_checks.yaml/badge.svg)
 [![Documentation Status](https://readthedocs.org/projects/inventree/badge/?version=latest)](https://inventree.readthedocs.io/en/latest/?badge=latest)
-![Docker Build](https://github.com/inventree/inventree/actions/workflows/docker.yaml/badge.svg)
+![Docker Build](https://github.com/stoneddawg/inventree/actions/workflows/docker.yaml/badge.svg)
 [![Netlify Status](https://api.netlify.com/api/v1/badges/9bbb2101-0a4d-41e7-ad56-b63fb6053094/deploy-status)](https://app.netlify.com/sites/inventree/deploys)
 [![Performance Testing](https://dev.azure.com/InvenTree/InvenTree%20test%20statistics/_apis/build/status%2Fmatmair.InvenTree?branchName=testing)](https://dev.azure.com/InvenTree/InvenTree%20test%20statistics/_build/latest?definitionId=3&branchName=testing)
 
@@ -20,7 +20,7 @@
 ![GitHub commit activity](https://img.shields.io/github/commit-activity/m/inventree/inventree)
 [![Docker Pulls](https://img.shields.io/docker/pulls/inventree/inventree)](https://hub.docker.com/r/inventree/inventree)
 
-[![GitHub Org's stars](https://img.shields.io/github/stars/inventree?style=social)](https://github.com/inventree/InvenTree/)
+[![GitHub Org's stars](https://img.shields.io/github/stars/inventree?style=social)](https://github.com/stoneddawg/InvenTree/)
 [![Twitter Follow](https://img.shields.io/twitter/follow/inventreedb?style=social)](https://twitter.com/inventreedb)
 [![Subreddit subscribers](https://img.shields.io/reddit/subreddit-subscribers/inventree?style=social)](https://www.reddit.com/r/InvenTree/)
 [![Mastdon](https://img.shields.io/badge/dynamic/json?label=Mastodon&query=followers_count&url=https%3A%2F%2Fchaos.social%2Fapi%2Fv1%2Faccounts%2Flookup%3Facct=InvenTree&logo=mastodon&style=social)](https://chaos.social/@InvenTree)
@@ -30,9 +30,9 @@
   <span> · </span>
     <a href="https://docs.inventree.org/en/latest/">Documentation</a>
   <span> · </span>
-    <a href="https://github.com/inventree/InvenTree/issues/new?template=bug_report.md&title=[BUG]">Report Bug</a>
+    <a href="https://github.com/stoneddawg/InvenTree/issues/new?template=bug_report.md&title=[BUG]">Report Bug</a>
   <span> · </span>
-    <a href="https://github.com/inventree/InvenTree/issues/new?template=feature_request.md&title=[FR]">Request Feature</a>
+    <a href="https://github.com/stoneddawg/InvenTree/issues/new?template=feature_request.md&title=[FR]">Request Feature</a>
   </h4>
 </div>
 
@@ -46,7 +46,7 @@ Check out [our website](https://inventree.org) for more details.
 <!-- Roadmap -->
 ### :compass: Roadmap
 
-Want to see what we are working on? Check out the [roadmap tag](https://github.com/inventree/InvenTree/issues?q=is%3Aopen+is%3Aissue+label%3Aroadmap) and [horizon milestone](https://github.com/inventree/InvenTree/milestone/42).
+Want to see what we are working on? Check out the [roadmap tag](https://github.com/stoneddawg/InvenTree/issues?q=is%3Aopen+is%3Aissue+label%3Aroadmap) and [horizon milestone](https://github.com/stoneddawg/InvenTree/milestone/42).
 
 <!-- Integration -->
 ### :hammer_and_wrench: Integration
@@ -207,4 +207,4 @@ Find a full list of used third-party libraries in the license information dialog
 <!-- License -->
 ## :warning: License
 
-Distributed under the [MIT](https://choosealicense.com/licenses/mit/) License. See [LICENSE.txt](https://github.com/inventree/InvenTree/blob/master/LICENSE) for more information.
+Distributed under the [MIT](https://choosealicense.com/licenses/mit/) License. See [LICENSE.txt](https://github.com/stoneddawg/InvenTree/blob/master/LICENSE) for more information.

@@ -20,7 +20,7 @@ class PluginDetailAPITest(PluginMixin, InvenTreeAPITestCase):
         self.MSG_NO_PKG = 'Either packagename or URL must be provided'
 
         self.PKG_NAME = 'inventree-brother-plugin'
-        self.PKG_URL = 'git+https://github.com/inventree/inventree-brother-plugin'
+        self.PKG_URL = 'git+https://github.com/stoneddawg/inventree-brother-plugin'
         super().setUp()
 
     def test_plugin_uninstall(self):

@@ -38,7 +38,7 @@ def update_shipment_date(apps, schema_editor):
         shipment_date = latest_shipment.shipment_date
 
         # Raw SQL to prevent some weird migration "order of operations" issues
-        # Reference: https://github.com/inventree/InvenTree/pull/8814
+        # Reference: https://github.com/stoneddawg/InvenTree/pull/8814
         query = f"UPDATE order_salesorder SET shipment_date = '{shipment_date}' WHERE id = {order.pk}"
         cursor.execute(query)
 

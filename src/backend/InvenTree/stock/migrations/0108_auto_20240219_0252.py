@@ -7,7 +7,7 @@ from django.db.models import F, OuterRef, Subquery, IntegerField
 def update_templates(apps, schema_editor):
     """Run data migration to fix potentially mis-applied data migration.
     
-    Ref: https://github.com/inventree/InvenTree/pull/6514
+    Ref: https://github.com/stoneddawg/InvenTree/pull/6514
 
     The previous data migration (stock.0106_auto_20240207_0353) had a bug,
     where it would look for any matching PartTestTemplate objects for a given StockItemTestResult,

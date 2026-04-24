@@ -195,7 +195,7 @@ class PartUnitsMigrationTest(MigratorTestCase):
 class TestPartParameterTemplateMigration(MigratorTestCase):
     """Test for data migration of PartParameterTemplate.
 
-    Ref: https://github.com/inventree/InvenTree/pull/4987
+    Ref: https://github.com/stoneddawg/InvenTree/pull/4987
     """
 
     migrate_from = ('part', '0110_alter_part_units')
@@ -278,7 +278,7 @@ class TestPartTestParameterMigration(MigratorTestCase):
 class TestPartParameterDeletion(MigratorTestCase):
     """Test for PartParameter deletion migration.
 
-    Ref: https://github.com/inventree/InvenTree/pull/10699
+    Ref: https://github.com/stoneddawg/InvenTree/pull/10699
 
     In the linked PR:
 

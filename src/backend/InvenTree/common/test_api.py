@@ -278,7 +278,7 @@ class ParameterAPITests(InvenTreeAPITestCase):
     def test_template_extended_filters(self):
         """Unit testing for more complex filters on the ParameterTemplate endpoint.
 
-        Ref: https://github.com/inventree/InvenTree/pull/11383
+        Ref: https://github.com/stoneddawg/InvenTree/pull/11383
 
         In these tests we will filter by complex model relations.
         """

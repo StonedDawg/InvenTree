@@ -6,7 +6,7 @@ title: Plugin Creator
 
 The plugin framework provided for InvenTree is powerful and flexible - which also means that it can be a bit complex to get started, especially for new developers.
 
-To assist in creating a new plugin, we provide a [plugin creator command line tool](https://github.com/inventree/plugin-creator).
+To assist in creating a new plugin, we provide a [plugin creator command line tool](https://github.com/stoneddawg/plugin-creator).
 
 This tool allows developers to quickly scaffold a new InvenTree plugin, and provides a basic structure to build upon. The plugin creator tool allows the developer to select which plugin features they wish to include, and generates a basic plugin structure with the selected features.
 

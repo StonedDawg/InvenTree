@@ -366,7 +366,7 @@ class TestSupplierPartQuantity(MigratorTestCase):
 class TestManufacturerPartParameterMigration(MigratorTestCase):
     """Test migration of ManufacturerPartParameter data.
 
-    Ref: https://github.com/inventree/InvenTree/pull/10699
+    Ref: https://github.com/stoneddawg/InvenTree/pull/10699
 
     In the referenced PR:
 

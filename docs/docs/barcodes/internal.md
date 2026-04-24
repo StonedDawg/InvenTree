@@ -29,7 +29,7 @@ The numerical ID value used is the *Primary Key* (PK) of the particular object i
 !!! info "QR code versions"
     There are 40 different qr code versions from 1-40. They all can encode more data than the previous version, but require more "squares". E.g. a V1 QR codes has 21x21 "squares" while a V2 already has 25x25. For more information see [QR code comparison](https://www.qrcode.com/en/about/version.html).
 
-For a more detailed size analysis of the JSON-based QR codes refer to [this issue](https://github.com/inventree/InvenTree/issues/6612).
+For a more detailed size analysis of the JSON-based QR codes refer to [this issue](https://github.com/stoneddawg/InvenTree/issues/6612).
 
 ### 2. Short alphanumeric QR Codes
 

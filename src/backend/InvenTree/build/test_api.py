@@ -811,7 +811,7 @@ class BuildAllocationTest(BuildAPITest):
     def test_fractional_allocation(self):
         """Test allocation of a fractional quantity of stock items.
 
-        Ref: https://github.com/inventree/InvenTree/issues/6508
+        Ref: https://github.com/stoneddawg/InvenTree/issues/6508
         """
         si = StockItem.objects.get(pk=2)
 

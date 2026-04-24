@@ -436,7 +436,7 @@ class PartPricingTests(InvenTreeTestCase):
         """Test deleting a part instance with stock items.
 
         This is to test a specific edge condition which was discovered that caused an IntegrityError.
-        Ref: https://github.com/inventree/InvenTree/issues/4419
+        Ref: https://github.com/stoneddawg/InvenTree/issues/4419
 
         Essentially a series of on_delete listeners caused a new PartPricing object to be created,
         but it pointed to a Part instance which was slated to be deleted inside an atomic transaction.

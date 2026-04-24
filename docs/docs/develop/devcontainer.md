@@ -30,7 +30,7 @@ The InvenTree devcontainer setup will install the following docker containers:
 
 1. Clone the repository (If you want to submit changes fork it and use the url to your fork in the next step)
    ```bash
-   git clone https://github.com/inventree/InvenTree.git
+   git clone https://github.com/stoneddawg/InvenTree.git
    ```
 2. Open vscode, navigate to the extensions sidebar and search for `ms-vscode-remote.remote-containers`. Click on install.
 3. Open the cloned folder from above by clicking on `file > open folder`
@@ -41,7 +41,7 @@ The InvenTree devcontainer setup will install the following docker containers:
 
 ### Setup in Codespaces
 
-Open [inventree/InvenTree](https://github.com/inventree/InvenTree) with your browser and click on `Code`, select the `codespaces` tab and click on create codespace on current branch. This may can take a few minutes until your inventree development environment is setup.
+Open [inventree/InvenTree](https://github.com/stoneddawg/InvenTree) with your browser and click on `Code`, select the `codespaces` tab and click on create codespace on current branch. This may can take a few minutes until your inventree development environment is setup.
 
 !!! warning "Close the terminal"
     The appearing terminal which says `Welcome to codespaces` is not using the virtual env. Close it and use a new terminal that will automatically connect to the venv for using commands.

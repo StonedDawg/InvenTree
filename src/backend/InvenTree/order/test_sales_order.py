@@ -345,7 +345,7 @@ class SalesOrderTest(InvenTreeTestCase):
         This test is designed to test that the database does not error out,
         even when a large number of items are assigned to a shipment.
 
-        Ref: https://github.com/inventree/InvenTree/pull/11500
+        Ref: https://github.com/stoneddawg/InvenTree/pull/11500
         """
         customer = Company.objects.create(name='Customer 2', is_customer=True)
 

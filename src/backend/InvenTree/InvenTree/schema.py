@@ -210,7 +210,7 @@ def postprocess_schema_enums(result, generator, **kwargs):
         - Some warnings are unavoidable due to the way that InvenTree implements generic relationships (via ContentType).
         - The cleanest way to handle this appears to be to override the 'warn' function from drf-spectacular.
 
-        Ref: https://github.com/inventree/InvenTree/pull/10699
+        Ref: https://github.com/stoneddawg/InvenTree/pull/10699
         """
         ignore_patterns = [
             'enum naming encountered a non-optimally resolvable collision for fields named "model_type"'

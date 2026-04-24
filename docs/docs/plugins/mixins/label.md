@@ -58,7 +58,7 @@ class MyPrinterPlugin(LabelPrintingMixin, InvenTreePlugin):
 If the `print_labels` method is not changed, this will run the `print_label` method in a background worker thread.
 
 !!! info "Example Plugin"
-    Check out the [inventree-brother-plugin](https://github.com/inventree/inventree-brother-plugin) which provides native support for the Brother QL and PT series of networked label printers
+    Check out the [inventree-brother-plugin](https://github.com/stoneddawg/inventree-brother-plugin) which provides native support for the Brother QL and PT series of networked label printers
 
 !!! tip "Custom Code"
     If your plugin overrides the `print_labels` method, you will have to ensure that the label printing is correctly offloaded to the background worker. Look at the `offload_label` method of the plugin mixin class for how this can be achieved.

@@ -88,7 +88,7 @@ export const QuickAction = () => {
       buttonText: t`Open Issue`,
       action: () =>
         window.open(
-          'https://github.com/inventree/inventree/issues/new',
+          'https://github.com/stoneddawg/inventree/issues/new',
           '_blank'
         )
     },

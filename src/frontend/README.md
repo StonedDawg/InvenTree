@@ -11,7 +11,7 @@ This library is intended to be used for creating plugins - any other use is outs
 
 ### Plugin Creator
 
-This library is intended to be used with the [InvenTree Plugin Creator](https://github.com/inventree/plugin-creator). Read the documentation for the plugin creation tool for more information.
+This library is intended to be used with the [InvenTree Plugin Creator](https://github.com/stoneddawg/plugin-creator). Read the documentation for the plugin creation tool for more information.
 
 The plugin creation tool uses the types provided in this package at build time, but it is intended that most of the major packages are *externalized* - as these are provided as global objects by the core InvenTree UI code.
 

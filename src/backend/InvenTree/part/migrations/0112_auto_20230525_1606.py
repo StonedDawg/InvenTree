@@ -8,10 +8,10 @@ there may exist a situation where the columns (defined in the migrations below) 
 
 In this case, we want to delete the columns, and then re-add them.
 
-Original error: https://github.com/inventree/InvenTree/pull/4898
-1st fix: https://github.com/inventree/InvenTree/pull/4961
-2nd fix: https://github.com/inventree/InvenTree/pull/4977
-3rd fix: https://github.com/inventree/InvenTree/pull/4987
+Original error: https://github.com/stoneddawg/InvenTree/pull/4898
+1st fix: https://github.com/stoneddawg/InvenTree/pull/4961
+2nd fix: https://github.com/stoneddawg/InvenTree/pull/4977
+3rd fix: https://github.com/stoneddawg/InvenTree/pull/4987
 """
 
 from django.db import migrations, models

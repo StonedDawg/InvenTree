@@ -307,7 +307,7 @@ def isPluginRegistryLoaded():
 def ignore_ready_warning(func):
     """Decorator to ignore 'AppRegistryNotReady' warnings in functions called during app ready phase.
 
-    Ref: https://github.com/inventree/InvenTree/issues/10806
+    Ref: https://github.com/stoneddawg/InvenTree/issues/10806
     """
 
     @functools.wraps(func)

@@ -6,7 +6,7 @@ from django.db import migrations
 def update_build_reference(apps, schema_editor):
     """Update the build order reference.
 
-    Ref: https://github.com/inventree/InvenTree/pull/3267
+    Ref: https://github.com/stoneddawg/InvenTree/pull/3267
 
     Performs the following steps:
     - Extract existing 'prefix' value

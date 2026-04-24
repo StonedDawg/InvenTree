@@ -27,8 +27,8 @@ The head of the *master* code branch represents the "latest and greatest" workin
 
 ## Upcoming Features
 
-In-progress and upcoming features can be viewed on [GitHub](https://github.com/inventree/inventree/pulls), where the InvenTree source code is hosted.
+In-progress and upcoming features can be viewed on [GitHub](https://github.com/stoneddawg/inventree/pulls), where the InvenTree source code is hosted.
 
 ## Suggest Something New
 
-To suggest a new feature (or report a bug) raise an [issue on GitHub](https://github.com/inventree/inventree/issues).
+To suggest a new feature (or report a bug) raise an [issue on GitHub](https://github.com/stoneddawg/inventree/issues).

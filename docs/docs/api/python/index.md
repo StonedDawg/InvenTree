@@ -4,7 +4,7 @@ title: Python Interface
 
 ## Python Module
 
-A [Python module](https://github.com/inventree/inventree-python) is provided for rapid development of third party scripts or applications using the REST API. The python module handles authentication and API transactions, providing an extremely clean interface for interacting with and manipulating database data.
+A [Python module](https://github.com/stoneddawg/inventree-python) is provided for rapid development of third party scripts or applications using the REST API. The python module handles authentication and API transactions, providing an extremely clean interface for interacting with and manipulating database data.
 
 ### Features
 
@@ -24,7 +24,7 @@ pip3 install inventree
 !!! tip "Upgrading"
     To upgrade to the latest version, run `pip install --upgrade inventree`
 
-Alternatively, it can downloaded and installed from source, from [GitHub](https://github.com/inventree/inventree-python).
+Alternatively, it can downloaded and installed from source, from [GitHub](https://github.com/stoneddawg/inventree-python).
 
 ### Authentication
 
@@ -160,8 +160,8 @@ stock_item.uploadTestResult("Firmware", True, value="0x12345678", attachment="de
 
 #### Discovering Methods
 
-You can determine the available methods by either [reading the source code](https://github.com/inventree/inventree-python) or using the `dir()` function in an interactive terminal.
+You can determine the available methods by either [reading the source code](https://github.com/stoneddawg/inventree-python) or using the `dir()` function in an interactive terminal.
 
 ### Further Reading
 
-The [InvenTree Python Interface](https://github.com/inventree/inventree-python) is open source, and well documented. The best way to learn is to read through the source code and try for yourself!
+The [InvenTree Python Interface](https://github.com/stoneddawg/inventree-python) is open source, and well documented. The best way to learn is to read through the source code and try for yourself!

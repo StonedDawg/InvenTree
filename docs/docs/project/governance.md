@@ -23,7 +23,7 @@ The core team has moderation, triage and review permissions on most repositories
 The InvenTree project is translated into a number of languages using a web translation tool that requires approval of submitted strings. Members of the community can apply to be elevated to the role of `proofreader` for a specific language.
 Proofreaders are enabled to approve translations, at which point they are automatically proposed for inclusion in the code base.
 
-A list of proofreaders is being maintained on [GitHub](https://github.com/inventree/InvenTree/discussions/9073)
+A list of proofreaders is being maintained on [GitHub](https://github.com/stoneddawg/InvenTree/discussions/9073)
 
 ## Write access to the code base
 

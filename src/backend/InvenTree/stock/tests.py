@@ -1028,8 +1028,8 @@ class StockLocationTreeTest(StockTestBase):
         Ensure that the MPTT structure is rebuilt correctly,
         and the current ancestor tree is observed.
 
-        Ref: https://github.com/inventree/InvenTree/issues/2636
-        Ref: https://github.com/inventree/InvenTree/issues/2733
+        Ref: https://github.com/stoneddawg/InvenTree/issues/2636
+        Ref: https://github.com/stoneddawg/InvenTree/issues/2733
         """
         # First, we will create a stock location structure
 

@@ -578,7 +578,7 @@ class StockItemListTest(StockAPITestCase):
     def test_pagination(self):
         """Test that pagination boundaries are observed correctly.
 
-        Ref: https://github.com/inventree/InvenTree/issues/11442
+        Ref: https://github.com/stoneddawg/InvenTree/issues/11442
         """
         location = StockLocation.objects.first()
         part = Part.objects.first()
@@ -1052,7 +1052,7 @@ class StockItemListTest(StockAPITestCase):
         - Only return stock items which are 'allocated'
         - Either to a build order or sales order
         - Test that the results are "distinct" (no duplicated results)
-        - Ref: https://github.com/inventree/InvenTree/pull/5916
+        - Ref: https://github.com/stoneddawg/InvenTree/pull/5916
         """
         # Create a build order to allocate to
         assembly = part.models.Part.objects.create(
@@ -2360,7 +2360,7 @@ class StockTestResultTest(StockAPITestCase):
     def test_post_bitmap(self):
         """2021-08-25.
 
-        For some (unknown) reason, prior to fix https://github.com/inventree/InvenTree/pull/2018
+        For some (unknown) reason, prior to fix https://github.com/stoneddawg/InvenTree/pull/2018
         uploading a bitmap image would result in a failure.
 
         This test has been added to ensure that there is no regression.

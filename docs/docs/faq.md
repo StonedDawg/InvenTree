@@ -6,7 +6,7 @@ title: FAQ
 
 Below is a list of frequently asked questions. If you are having issues with InvenTree please consult this list first!
 
-Also, you can refer to our [GitHub page](https://github.com/inventree/inventree/issues) for known issues and bug reports - perhaps your issue has already been reported!
+Also, you can refer to our [GitHub page](https://github.com/stoneddawg/inventree/issues) for known issues and bug reports - perhaps your issue has already been reported!
 
 If you cannot resolve the issue, please refer to the [troubleshooting guide](./troubleshooting.md) for further assistance.
 
@@ -87,7 +87,7 @@ If you have successfully started the InvenTree server, but are experiencing issu
 
 ### Session Cookies
 
-The [0.17.0 release](https://github.com/inventree/InvenTree/releases/tag/0.17.0) included [a change to the way that session cookies were handled](https://github.com/inventree/InvenTree/pull/8269). This change may cause login issues for existing InvenTree installs which are upgraded from an older version. System administrators should refer to the [server access settings](./start/config.md#server-access) and ensure that the following settings are correctly configured:
+The [0.17.0 release](https://github.com/stoneddawg/InvenTree/releases/tag/0.17.0) included [a change to the way that session cookies were handled](https://github.com/stoneddawg/InvenTree/pull/8269). This change may cause login issues for existing InvenTree installs which are upgraded from an older version. System administrators should refer to the [server access settings](./start/config.md#server-access) and ensure that the following settings are correctly configured:
 
 - **INVENTREE_SESSION_COOKIE_SECURE**: `False`
 - **INVENTREE_COOKIE_SAMESITE**: `False`
@@ -135,7 +135,7 @@ invoke update --skip-backup
 
 If a particular menu / item is not visible after updating InvenTree, or a certain function no longer seems to work, it may be due to your internet browser caching old versions of CSS and JavaScript files.
 
-Before [raising an issue](https://github.com/inventree/inventree/issues), try hard-refreshing the browser cache:
+Before [raising an issue](https://github.com/stoneddawg/inventree/issues), try hard-refreshing the browser cache:
 
 <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>R</kbd>
 

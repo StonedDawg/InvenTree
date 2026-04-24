@@ -75,7 +75,7 @@ export const docLinks = {
   api: 'https://docs.inventree.org/en/latest/api/',
   developer: 'https://docs.inventree.org/en/latest/develop/contributing/',
   faq: 'https://docs.inventree.org/en/latest/faq/',
-  github: 'https://github.com/inventree/inventree',
+  github: 'https://github.com/stoneddawg/inventree',
   errorcodes: 'https://docs.inventree.org/en/latest/sref/error-codes/'
 };
 

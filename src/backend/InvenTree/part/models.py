@@ -2114,7 +2114,7 @@ class Part(
         Importantly, catches any errors which may occur during deletion of related objects,
         in particular due to post_delete signals.
 
-        Ref: https://github.com/inventree/InvenTree/pull/3986
+        Ref: https://github.com/stoneddawg/InvenTree/pull/3986
 
         Arguments:
             create: Whether or not a new PartPricing object should be created if it does not already exist

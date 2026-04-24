@@ -4,7 +4,7 @@ title: Python Interface Examples
 
 ## Examples
 
-Following is a *non-exhaustive* list of examples of the capabilities provided by the python library. For a complete look at what it can do, [read the source code](https://github.com/inventree/inventree-python)!
+Following is a *non-exhaustive* list of examples of the capabilities provided by the python library. For a complete look at what it can do, [read the source code](https://github.com/stoneddawg/inventree-python)!
 
 ### Creating New Items
 

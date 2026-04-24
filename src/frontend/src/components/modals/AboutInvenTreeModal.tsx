@@ -111,7 +111,7 @@ const AboutContent = ({
     {
       ref: 'server',
       title: <Trans>InvenTree Version</Trans>,
-      link: 'https://github.com/inventree/InvenTree/releases',
+      link: 'https://github.com/stoneddawg/InvenTree/releases',
       copy: true
     },
     {

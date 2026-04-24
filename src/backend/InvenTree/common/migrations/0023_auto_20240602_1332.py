@@ -11,7 +11,7 @@ import InvenTree.config
 def set_currencies(apps, schema_editor):
     """Set the default currency codes.
     
-    Ref: https://github.com/inventree/InvenTree/pull/7390
+    Ref: https://github.com/stoneddawg/InvenTree/pull/7390
     
     Previously, the allowed currency codes were set in the external configuration
     (e.g via the configuration file or environment variables).

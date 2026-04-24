@@ -105,13 +105,13 @@ This should return the path to the `invoke` binary inside the virtual environmen
 
 ## InvenTree Source Code
 
-InvenTree source code is distributed on [GitHub](https://github.com/inventree/inventree/), and the latest version can be downloaded (using Git) with the following command:
+InvenTree source code is distributed on [GitHub](https://github.com/stoneddawg/inventree/), and the latest version can be downloaded (using Git) with the following command:
 
 ```
-git clone https://github.com/inventree/inventree/
+git clone https://github.com/stoneddawg/inventree/
 ```
 
-Alternatively, the source can be downloaded as a [.zip archive](https://github.com/inventree/InvenTree/archive/master.zip).
+Alternatively, the source can be downloaded as a [.zip archive](https://github.com/stoneddawg/InvenTree/archive/master.zip).
 
 !!! info "Updating via Git"
     Downloading the source code using Git is recommended, as it allows for simple updates when a new version of InvenTree is released.

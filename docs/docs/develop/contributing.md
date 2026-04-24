@@ -21,7 +21,7 @@ The recommended method for getting up and running with an InvenTree development 
 To setup a development environment using [docker](../start/docker.md), run the following instructions:
 
 ```bash
-git clone https://github.com/inventree/InvenTree.git && cd InvenTree
+git clone https://github.com/stoneddawg/InvenTree.git && cd InvenTree
 docker compose --project-directory . -f contrib/container/dev-docker-compose.yml run --rm inventree-dev-server invoke install
 docker compose --project-directory . -f contrib/container/dev-docker-compose.yml run --rm inventree-dev-server invoke dev.setup-test --dev
 docker compose --project-directory . -f contrib/container/dev-docker-compose.yml up -d
@@ -32,7 +32,7 @@ docker compose --project-directory . -f contrib/container/dev-docker-compose.yml
 A "bare metal" development setup can be installed as follows:
 
 ```bash
-git clone https://github.com/inventree/InvenTree.git && cd InvenTree
+git clone https://github.com/stoneddawg/InvenTree.git && cd InvenTree
 python3 -m venv env && source env/bin/activate
 pip install --upgrade --ignore-installed invoke
 invoke install

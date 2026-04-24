@@ -93,7 +93,7 @@ def generate_index_file(version: str):
     This documentation is for API version: `{version}`
 
     !!! tip "API Schema History"
-        We track API schema changes, and provide a snapshot of each API schema version in the [API schema repository](https://github.com/inventree/schema/).
+        We track API schema changes, and provide a snapshot of each API schema version in the [API schema repository](https://github.com/stoneddawg/schema/).
 
     ## API Schema File
 

@@ -29,7 +29,7 @@ The demo instance has a number of user accounts which you can use to explore the
 
 The demo instance is populated with a sample dataset, which is reset every 24 hours.
 
-The source data used in the demo instance can be found on our [GitHub page](https://github.com/inventree/demo-dataset).
+The source data used in the demo instance can be found on our [GitHub page](https://github.com/stoneddawg/demo-dataset).
 
 ### Local Setup
 

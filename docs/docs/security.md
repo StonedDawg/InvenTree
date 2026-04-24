@@ -19,7 +19,7 @@ The official [Security Policy]({{ sourcefile("SECURITY.md") }}) is available in 
 We provide this document in our main repo to increase discoverabiltity to ensure that all security issues are handled in a timely manner.
 
 ### Past Reports
-If we become aware of a security issue, we will take immediate action to address the issue, and will provide a public disclosure of the issue once it has been resolved. We support assigning CVEs to security issues where appropriate.  Our [past security advisories can be found here](https://github.com/inventree/InvenTree/security/advisories).
+If we become aware of a security issue, we will take immediate action to address the issue, and will provide a public disclosure of the issue once it has been resolved. We support assigning CVEs to security issues where appropriate.  Our [past security advisories can be found here](https://github.com/stoneddawg/InvenTree/security/advisories).
 
 ## Technical measures
 
@@ -54,7 +54,7 @@ We are pinning dependencies to specific versions - aiming for complete reproduci
 
 ## Best practices
 
-We follow most of GitHubs community best practices, check our compliance [here](https://github.com/inventree/InvenTree/community).
+We follow most of GitHubs community best practices, check our compliance [here](https://github.com/stoneddawg/InvenTree/community).
 
 We also follow OpenSSF recommendations where applicable and take part in multiple of their security efforts:
 

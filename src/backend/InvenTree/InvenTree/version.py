@@ -154,7 +154,7 @@ def inventreeAppUrl() -> str:
 
 def inventreeGithubUrl() -> str:
     """Return URL for InvenTree github site."""
-    return 'https://github.com/InvenTree/InvenTree/'
+    return 'https://github.com/stoneddawg/InvenTree/'
 
 
 def isInvenTreeUpToDate() -> bool:

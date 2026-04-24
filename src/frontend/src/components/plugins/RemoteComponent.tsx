@@ -74,7 +74,7 @@ export default function RemoteComponent({
             try {
               if (func.length > 1) {
                 // Support "legacy" plugin functions which call createRoot() internally
-                // Ref: https://github.com/inventree/InvenTree/pull/9439/
+                // Ref: https://github.com/stoneddawg/InvenTree/pull/9439/
                 func(componentRef.current, ctx);
               } else {
                 // Render the plugin component into the target element

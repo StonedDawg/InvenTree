@@ -18,7 +18,7 @@ Renames the `monitorDataOutput` hook to `useMonitorDataOutput` to better reflect
 
 ### 0.8.2 - March 2026
 
-Bug fixes for the `monitorDataOutput` hook - https://github.com/inventree/InvenTree/pull/11458
+Bug fixes for the `monitorDataOutput` hook - https://github.com/stoneddawg/InvenTree/pull/11458
 
 ### 0.8.0 - March 2026
 
@@ -36,7 +36,7 @@ Updated underlying Mantine library versions.
 
 This release updates the base `react` major version from `18.3.1` to `19.1.1`. This change may introduce breaking changes for plugins that rely on the InvenTree UI components library (plugin developers should test their plugins against this new version).
 
-Ref: https://github.com/inventree/InvenTree/pull/10202/
+Ref: https://github.com/stoneddawg/InvenTree/pull/10202/
 
 ### 0.4.0 - July 2025
 

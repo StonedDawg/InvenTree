@@ -344,7 +344,7 @@ jobs:
           static: true
           npm: true
       - name: Download Python Code For `${WRAPPER_NAME}`
-        run: git clone --depth 1 https://github.com/inventree/${WRAPPER_NAME} ./${WRAPPER_NAME}
+        run: git clone --depth 1 https://github.com/stoneddawg/${WRAPPER_NAME} ./${WRAPPER_NAME}
       - name: Start InvenTree Server
         run: |
           invoke dev.delete-data -f
@@ -627,7 +627,7 @@ jobs:
         with:
           install: true
       - name: Fetch Database
-        run: git clone --depth 1 https://github.com/inventree/test-db ./test-db
+        run: git clone --depth 1 https://github.com/stoneddawg/test-db ./test-db
 
       - name: 0.10.0 Database
         run: |

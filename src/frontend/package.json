@@ -23,7 +23,7 @@
     "homepage": "https://inventree.org",
     "repository": {
         "type": "git",
-        "url": "https://github.com/inventree/inventree"
+        "url": "https://github.com/stoneddawg/inventree"
     },
     "author": {
         "name": "InvenTree Developers",

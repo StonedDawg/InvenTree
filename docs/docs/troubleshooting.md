@@ -50,7 +50,7 @@ Look at the logged error reports in the admin section - you will need to be an a
 
 ### GitHub Issues
 
-Before raising a new issue, please check the [GitHub issues page](https://github.com/inventree/inventree) for reported issues. If your issue is a common one, it may already have been reported - and perhaps even resolved!
+Before raising a new issue, please check the [GitHub issues page](https://github.com/stoneddawg/inventree) for reported issues. If your issue is a common one, it may already have been reported - and perhaps even resolved!
 
 ### Web Browser Console
 

@@ -5,7 +5,7 @@ site_description: InvenTree - Open Source Inventory Management
 site_author: InvenTree
 
 # Repository
-repo_url: https://github.com/inventree/inventree
+repo_url: https://github.com/stoneddawg/inventree
 repo_name: inventree/inventree
 
 
@@ -313,21 +313,21 @@ plugins:
   - redirects:
       redirect_maps:
         'sref/faq.md': 'faq.md' #  https://docs.inventree.org/en/latest/faq/
-        'sref/contrib.md': 'develop/contributing.md'  #  https://github.com/inventree/InvenTree/blob/master/CONTRIBUTING.md.
+        'sref/contrib.md': 'develop/contributing.md'  #  https://github.com/stoneddawg/InvenTree/blob/master/CONTRIBUTING.md.
         'sref/docs.md': 'index.md' #   https://docs.inventree.org/en/latest/
         'sref/api.md': 'api/index.md' #  https://demo.inventree.org/api-doc/
         'sref/architecture.md': 'develop/architecture.md'
         'sref/roadmap.md': 'develop/roadmap.md'
-        'sref/code.md': 'https://github.com/inventree/InvenTree/tree/master' #  https://github.com/inventree/InvenTree/tree/master
+        'sref/code.md': 'https://github.com/stoneddawg/InvenTree/tree/master' #  https://github.com/stoneddawg/InvenTree/tree/master
         'sref/oci-image.md': 'https://hub.docker.com/r/inventree/inventree/tags' #  https://hub.docker.com/r/inventree/inventree/tags
-        'sref/releases.md': 'https://github.com/inventree/InvenTree/releases' # https://github.com/inventree/InvenTree/releases
-        'sref/issues.md': 'https://github.com/inventree/InvenTree/issues' # https://github.com/inventree/InvenTree/issues
-        'sref/security-policy.md': 'https://github.com/inventree/InvenTree/security/policy' # https://github.com/inventree/InvenTree/security/policy
+        'sref/releases.md': 'https://github.com/stoneddawg/InvenTree/releases' # https://github.com/stoneddawg/InvenTree/releases
+        'sref/issues.md': 'https://github.com/stoneddawg/InvenTree/issues' # https://github.com/stoneddawg/InvenTree/issues
+        'sref/security-policy.md': 'https://github.com/stoneddawg/InvenTree/security/policy' # https://github.com/stoneddawg/InvenTree/security/policy
         'sref/security-history.md': 'https://huntr.dev/repos/inventree/inventree/' # https://huntr.dev/repos/inventree/inventree/
-        'sref/ci.md': 'https://github.com/inventree/InvenTree/actions' # https://github.com/inventree/InvenTree/actions
-        'sref/ci-sample.md': 'https://github.com/inventree/InvenTree/blob/master/.github/workflows/qc_checks.yaml' # https://github.com/inventree/InvenTree/blob/master/.github/workflows/qc_checks.yaml
-        'sref/ci-pre.md': 'https://github.com/inventree/InvenTree/blob/master/.pre-commit-config.yaml' # https://github.com/inventree/InvenTree/blob/master/.pre-commit-config.yaml
-        'sref/test-sample.md': 'https://github.com/inventree/InvenTree/blob/master/src/backend/InvenTree/InvenTree/tests.py' # https://github.com/inventree/InvenTree/blob/master/src/backend/InvenTree/InvenTree/tests.py
+        'sref/ci.md': 'https://github.com/stoneddawg/InvenTree/actions' # https://github.com/stoneddawg/InvenTree/actions
+        'sref/ci-sample.md': 'https://github.com/stoneddawg/InvenTree/blob/master/.github/workflows/qc_checks.yaml' # https://github.com/stoneddawg/InvenTree/blob/master/.github/workflows/qc_checks.yaml
+        'sref/ci-pre.md': 'https://github.com/stoneddawg/InvenTree/blob/master/.pre-commit-config.yaml' # https://github.com/stoneddawg/InvenTree/blob/master/.pre-commit-config.yaml
+        'sref/test-sample.md': 'https://github.com/stoneddawg/InvenTree/blob/master/src/backend/InvenTree/InvenTree/tests.py' # https://github.com/stoneddawg/InvenTree/blob/master/src/backend/InvenTree/InvenTree/tests.py
         'sref/coverage.md': 'https://coveralls.io/github/inventree/InvenTree' # https://coveralls.io/github/inventree/InvenTree
         'sref/error-codes.md': 'settings/error_codes.md'
 
@@ -373,7 +373,7 @@ extra:
 
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com/inventree/inventree
+      link: https://github.com/stoneddawg/inventree
       name: InvenTree on GitHub
     - icon: fontawesome/brands/twitter
       link: https://twitter.com/inventreedb

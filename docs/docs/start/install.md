@@ -84,7 +84,7 @@ Location for storing [database backups](./config.md#backup-file-storage)
 Download InvenTree source code, into the `./src` directory:
 
 ```
-git clone https://github.com/inventree/inventree src
+git clone https://github.com/stoneddawg/inventree src
 ```
 
 !!! info "Main Branch = Development"

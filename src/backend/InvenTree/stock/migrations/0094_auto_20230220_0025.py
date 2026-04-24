@@ -11,7 +11,7 @@ logger = logging.getLogger('inventree')
 def fix_purchase_price(apps, schema_editor):
     """Data migration for fixing historical issue with StockItem.purchase_price field.
 
-    Ref: https://github.com/inventree/InvenTree/pull/4373
+    Ref: https://github.com/stoneddawg/InvenTree/pull/4373
 
     Due to an existing bug, if a PurchaseOrderLineItem was received,
     which had:

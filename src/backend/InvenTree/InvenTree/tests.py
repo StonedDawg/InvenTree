@@ -309,7 +309,7 @@ class ConversionTest(TestCase):
     def test_temperature_units(self):
         """Test conversion of temperature units.
 
-        Ref: https://github.com/inventree/InvenTree/issues/6495
+        Ref: https://github.com/stoneddawg/InvenTree/issues/6495
         """
         tests = [
             ('3.3°F', '°C', -15.944),
@@ -736,7 +736,7 @@ class TestHelpers(TestCase):
             with self.assertRaises(django_exceptions.ValidationError):
                 InvenTree.helpers_model.download_image_from_url(url)
 
-        large_img = 'https://github.com/inventree/InvenTree/raw/master/src/backend/InvenTree/InvenTree/static/img/paper_splash_large.jpg'
+        large_img = 'https://github.com/stoneddawg/InvenTree/raw/master/src/backend/InvenTree/InvenTree/static/img/paper_splash_large.jpg'
 
         InvenTreeSetting.set_setting(
             'INVENTREE_DOWNLOAD_IMAGE_MAX_SIZE', 1, change_user=None
@@ -1477,7 +1477,7 @@ class TestOffloadTask(InvenTreeTestCase):
 
         However, it serves as a validation that object serialization works!
 
-        Ref: https://github.com/inventree/InvenTree/pull/3273
+        Ref: https://github.com/stoneddawg/InvenTree/pull/3273
         """
         self.assertTrue(
             offload_task(

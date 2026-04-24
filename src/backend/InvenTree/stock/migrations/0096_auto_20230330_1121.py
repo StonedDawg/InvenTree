@@ -6,7 +6,7 @@ from django.db import migrations
 def update_stock_history(apps, schema_editor):
     """Data migration to fix a 'shortcoming' in the implementation of StockTracking history
 
-    Prior to https://github.com/inventree/InvenTree/pull/4488,
+    Prior to https://github.com/stoneddawg/InvenTree/pull/4488,
     shipping items via a SalesOrder did not record the SalesOrder in the tracking history.
     This PR looks to add in SalesOrder history where it does not already exist:
 

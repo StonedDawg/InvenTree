@@ -1748,7 +1748,7 @@ def setup_test(
     if template_dir.exists():
         run(c, f'rm {template_dir} -r')
 
-    URL = 'https://github.com/inventree/demo-dataset'
+    URL = 'https://github.com/stoneddawg/demo-dataset'
 
     if use_ssh:
         # Use SSH protocol for cloning the demo dataset

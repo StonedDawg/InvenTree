@@ -2653,7 +2653,7 @@ class ReturnOrderTests(InvenTreeAPITestCase):
     def test_receive_untracked(self):
         """Test that we can receive untracked items against a ReturnOrder.
 
-        Ref: https://github.com/inventree/InvenTree/pull/8590
+        Ref: https://github.com/stoneddawg/InvenTree/pull/8590
         """
         self.assignRole('return_order.add')
         company = Company.objects.get(pk=4)

@@ -46,7 +46,7 @@ class UserAPITests(InvenTreeAPITestCase):
     def test_api_url(self):
         """Test the 'api_url' attribute in related API endpoints.
 
-        Ref: https://github.com/inventree/InvenTree/pull/10182
+        Ref: https://github.com/stoneddawg/InvenTree/pull/10182
         """
         self.user.is_superuser = True
         self.user.save()
