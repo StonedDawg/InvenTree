@@ -693,7 +693,7 @@ def install(
         dev: Install development requirements instead of production requirements. Default is False.
         verbose: Print verbose output from pip install commands. Default is False.
     """
-    info('Installing required python packages...')
+    info('Installing required python packages...shakalaalalaaa')
 
     if dev:
         run_install(
@@ -1084,7 +1084,7 @@ def update(
     - static (optional)
     - clean_settings
     """
-    info('Updating InvenTree installation...')
+    info('Updating InvenTree installation...HELLLLLOOOOOOOOOOOOOOOOOOOOO')
 
     # Ensure required components are installed
     install(c, uv=uv, verbose=verbose)

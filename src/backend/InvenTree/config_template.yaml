@@ -228,8 +228,8 @@ customize:
   hide_admin_link: true
 #   hide_password_reset: true
 #   disable_theme_storage: true
-  logo: img/custom_logo.png
-  splash: img/custom_splash.jpg
+  logo: static/img/custom_logo.png
+  splash: static/img/custom_splash.jpg
 
 # Override global settings
 global_settings:
