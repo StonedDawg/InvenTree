@@ -137,7 +137,7 @@ export function aboutInvenTree() {
     modal: 'about',
     title: (
       <StylishText size='xl'>
-        <Trans>About InvenTree</Trans>
+        <Trans>about treedawg</Trans>
       </StylishText>
     ),
     size: 'xl',
@@ -183,7 +183,7 @@ export function AboutLinks(
   if (user.isSuperuser() || !settings.isSet('INVENTREE_RESTRICT_ABOUT')) {
     base_items.push({
       id: 'about',
-      title: t`About InvenTree`,
+      title: t`about treedawg`,
       description: t`About the InvenTree Project`,
       icon: 'info',
       action: aboutInvenTree

@@ -2693,7 +2693,7 @@ msgstr "Admin központ"
 #: src/defaults/actions.tsx:58
 #: src/defaults/links.tsx:140
 #: src/defaults/links.tsx:186
-msgid "About InvenTree"
+msgid "about treedawg"
 msgstr "InvenTree névjegy"
 
 #: src/components/nav/MainMenu.tsx:108
@@ -4159,7 +4159,7 @@ msgid "Go to the InvenTree dashboard"
 msgstr "Ugrás az InvenTree vezérlőpulthoz"
 
 #: src/defaults/actions.tsx:50
-msgid "Visit the documentation to learn more about InvenTree"
+msgid "Visit the documentation to learn more about treedawg"
 msgstr "Látogassa meg a dokumentációt hogy többet tudjon meg az InvenTree-ről"
 
 #: src/defaults/actions.tsx:59

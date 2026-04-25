@@ -2693,7 +2693,7 @@ msgstr "Κέντρο διαχείρισης"
 #: src/defaults/actions.tsx:58
 #: src/defaults/links.tsx:140
 #: src/defaults/links.tsx:186
-msgid "About InvenTree"
+msgid "about treedawg"
 msgstr "Σχετικά με το InvenTree"
 
 #: src/components/nav/MainMenu.tsx:108
@@ -4159,7 +4159,7 @@ msgid "Go to the InvenTree dashboard"
 msgstr "Μετάβαση στο InvenTree dashboard"
 
 #: src/defaults/actions.tsx:50
-msgid "Visit the documentation to learn more about InvenTree"
+msgid "Visit the documentation to learn more about treedawg"
 msgstr "Επισκεφθείτε την τεκμηρίωση για να μάθετε περισσότερα για το InvenTree"
 
 #: src/defaults/actions.tsx:59

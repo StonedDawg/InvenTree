@@ -1,0 +1,1 @@
+{"engine": "django.db.backends.postgresql", "connector": "dbbackup.db.postgresql.PgDumpBinaryConnector", "ivt_1_debug": false, "ivt_1_version": "1.3.0", "ivt_1_version_api": 477, "ivt_1_plugins_enabled": true, "ivt_1_plugins_file_hash": "dd72fc1e245f9d5d11f964ea070f03fcc2b6de022f6407fa5da98e7858f3ec40", "ivt_1_installer": "DOC", "ivt_1_backup_time": "2026-04-25T05:41:12.916975"}

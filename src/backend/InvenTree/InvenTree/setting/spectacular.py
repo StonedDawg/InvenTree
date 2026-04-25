@@ -13,7 +13,7 @@ def get_spectacular_settings():
             'url': 'https://github.com/stoneddawg/InvenTree/blob/master/LICENSE',
         },
         'EXTERNAL_DOCS': {
-            'description': 'More information about InvenTree in the official docs',
+            'description': 'More information about treedawg in the official docs',
             'url': 'https://docs.inventree.org',
         },
         'VERSION': str(inventreeApiVersion()),

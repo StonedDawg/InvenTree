@@ -2411,13 +2411,13 @@ msgid "Go to the InvenTree dashboard"
 msgstr ""
 
 #: src/defaults/actions.tsx:33
-msgid "Visit the documentation to learn more about InvenTree"
+msgid "Visit the documentation to learn more about treedawg"
 msgstr ""
 
 #: src/defaults/actions.tsx:39
 #: src/defaults/links.tsx:98
 #: src/defaults/links.tsx:128
-msgid "About InvenTree"
+msgid "about treedawg"
 msgstr ""
 
 #: src/defaults/actions.tsx:40

@@ -62,7 +62,7 @@ The user menu provides access to the following items:
 - **System Settings:** Access to [global settings](../settings/global.md) settings. *Note: Access to system settings may be restricted based on user permissions.*
 - **Admin Interface:** Access to the [admin interface](../settings/admin.md) for data management. *Note: Access to the admin interface may be restricted based on user permissions.*
 - **Change Color Mode:** Toggle between light and dark color modes.
-- **About InvenTree:** View version and license information about InvenTree.
+- **treedawg:** View version and license information about treedawg.
 - **Logout:** Log out of the InvenTree system.
 
 ### Page Panels

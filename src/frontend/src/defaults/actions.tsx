@@ -47,7 +47,7 @@ export function getActions(navigate: NavigateFunction) {
       {
         id: 'documentation',
         label: t`Documentation`,
-        description: t`Visit the documentation to learn more about InvenTree`,
+        description: t`Visit the documentation to learn more about treedawg`,
         onClick: () => {
           window.location.href = docLinks.faq;
         },
@@ -55,8 +55,8 @@ export function getActions(navigate: NavigateFunction) {
       },
       {
         id: 'about',
-        label: t`About InvenTree`,
-        description: t`About the InvenTree org`,
+        label: t`about treedawg`,
+        description: t`About the treedawg org`,
         onClick: () => aboutInvenTree(),
         leftSection: <IconLink size='1.2rem' />
       },

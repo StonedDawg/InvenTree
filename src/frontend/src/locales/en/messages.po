@@ -2688,8 +2688,8 @@ msgstr "Admin Center"
 #: src/defaults/actions.tsx:58
 #: src/defaults/links.tsx:140
 #: src/defaults/links.tsx:186
-msgid "About InvenTree"
-msgstr "About InvenTree"
+msgid "about treedawg"
+msgstr "about treedawg"
 
 #: src/components/nav/MainMenu.tsx:108
 msgid "Logout"
@@ -4154,8 +4154,8 @@ msgid "Go to the InvenTree dashboard"
 msgstr "Go to the InvenTree dashboard"
 
 #: src/defaults/actions.tsx:50
-msgid "Visit the documentation to learn more about InvenTree"
-msgstr "Visit the documentation to learn more about InvenTree"
+msgid "Visit the documentation to learn more about treedawg"
+msgstr "Visit the documentation to learn more about treedawg"
 
 #: src/defaults/actions.tsx:59
 msgid "About the InvenTree org"

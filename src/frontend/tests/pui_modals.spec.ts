@@ -48,9 +48,9 @@ test('Modals - Admin', async ({ browser }) => {
   // use about
   await page.getByLabel('open-spotlight').click();
   await page
-    .getByRole('button', { name: 'About InvenTree About the InvenTree org' })
+    .getByRole('button', { name: 'about treedawg About the treedawg org' })
     .click();
-  await page.getByRole('cell', { name: 'InvenTree Version' }).click();
+  await page.getByRole('cell', { name: 'treedawg Version' }).click();
 });
 
 test('Spotlight - Check Actions', async ({ browser }) => {
@@ -142,17 +142,17 @@ test('Spotlight - No Keys', async ({ browser }) => {
   // use about
   await page.getByLabel('open-spotlight').click();
   await page
-    .getByRole('button', { name: 'About InvenTree About the InvenTree org' })
+    .getByRole('button', { name: 'about treedawg About the treedawg org' })
     .click();
   await page.getByText('This information is only').waitFor();
 
-  await page.getByLabel('About InvenTree').getByRole('button').click();
+  await page.getByLabel('about treedawg').getByRole('button').click();
 
   // use documentation
   await page.getByLabel('open-spotlight').click();
   await page
     .getByRole('button', {
-      name: 'Documentation Visit the documentation to learn more about InvenTree'
+      name: 'Documentation Visit the documentation to learn more about treedawg'
     })
     .click();
   await page.waitForURL('https://docs.inventree.org/**');
