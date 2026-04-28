@@ -72,7 +72,7 @@ services:
     # Uses gunicorn as the web server
     inventree-server:
         # If you wish to specify a particular InvenTree version, do so here
-        image: inventree/inventree:${INVENTREE_TAG:-stable}
+        image: inventree-image
         container_name: inventree-server
         # Only change this port if you understand the stack.
         expose:
@@ -92,7 +92,7 @@ services:
     # Background worker process handles long-running or periodic tasks
     inventree-worker:
         # If you wish to specify a particular InvenTree version, do so here
-        image: inventree/inventree:${INVENTREE_TAG:-stable}
+        image: inventree-image
         container_name: inventree-worker
         command: invoke worker
         depends_on:

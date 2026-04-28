@@ -51,9 +51,9 @@ debug_shell: False
 #admin_url: 'admin'
 
 # Add new user on first startup by either adding values here or from a file
-#admin_user: admin
-#admin_email: info@example.com
-#admin_password: inventree
+admin_user: admin
+admin_email: info@example.com
+admin_password: inventree
 #admin_password_file: '/etc/inventree/admin_password.txt'
 
 # Configure the system logging level (or use environment variable INVENTREE_LOG_LEVEL)

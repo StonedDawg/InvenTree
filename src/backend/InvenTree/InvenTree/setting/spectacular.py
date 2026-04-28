@@ -13,7 +13,7 @@ def get_spectacular_settings():
             'url': 'https://github.com/inventree/InvenTree/blob/master/LICENSE',
         },
         'EXTERNAL_DOCS': {
-            'description': 'More information about InvenTree in the official docs',
+            'description': 'More information About Klerk in the official docs',
             'url': 'https://docs.inventree.org',
         },
         'VERSION': str(inventreeApiVersion()),

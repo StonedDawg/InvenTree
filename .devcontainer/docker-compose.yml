@@ -41,6 +41,8 @@ services:
       INVENTREE_CORS_ORIGIN_ALLOW_ALL: True
       INVENTREE_PY_ENV: /home/inventree/dev/venv
       INVENTREE_DEVCONTAINER: True
-
+      INVENTREE_ADMIN_USER: admin
+      INVENTREE_ADMIN_PASSWORD: ikipaswod
+      INVENTREE_ADMIN_EMAIL: ulangrus@coba.com
     depends_on:
       - db

@@ -2693,7 +2693,7 @@ msgstr "Centro Amministratore"
 #: src/defaults/actions.tsx:58
 #: src/defaults/links.tsx:140
 #: src/defaults/links.tsx:186
-msgid "About InvenTree"
+msgid "About Klerk"
 msgstr "Informazioni su InvenTree"
 
 #: src/components/nav/MainMenu.tsx:108
@@ -4159,7 +4159,7 @@ msgid "Go to the InvenTree dashboard"
 msgstr "Vai alla bacheca InvenTree"
 
 #: src/defaults/actions.tsx:50
-msgid "Visit the documentation to learn more about InvenTree"
+msgid "Visit the documentation to learn more About Klerk"
 msgstr "Visita la documentazione per saperne di più su InvenTree"
 
 #: src/defaults/actions.tsx:59
