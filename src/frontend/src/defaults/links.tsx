@@ -70,13 +70,13 @@ export function getNavTabs(user: UserStateProps): NavTab[] {
 }
 
 export const docLinks = {
-  app: 'https://docs.inventree.org/en/latest/app/',
-  getting_started: 'https://docs.inventree.org/en/latest/start/',
-  api: 'https://docs.inventree.org/en/latest/api/',
-  developer: 'https://docs.inventree.org/en/latest/develop/contributing/',
-  faq: 'https://docs.inventree.org/en/latest/faq/',
-  github: 'https://github.com/inventree/inventree',
-  errorcodes: 'https://docs.inventree.org/en/latest/sref/error-codes/'
+  app: 'https://docs.klerk.org/en/latest/app/',
+  getting_started: 'https://docs.klerk.org/en/latest/start/',
+  api: 'https://docs.klerk.org/en/latest/api/',
+  developer: 'https://docs.klerk.org/en/latest/develop/contributing/',
+  faq: 'https://docs.klerk.org/en/latest/faq/',
+  github: 'https://github.com/klerk/klerk',
+  errorcodes: 'https://docs.klerk.org/en/latest/sref/error-codes/'
 };
 
 export function DocumentationLinks(): MenuLinkItem[] {
@@ -86,21 +86,21 @@ export function DocumentationLinks(): MenuLinkItem[] {
       title: t`Getting Started`,
       link: docLinks.getting_started,
       external: true,
-      description: t`Getting started with InvenTree`
+      description: t`Getting started with klerk`
     },
     {
       id: 'api',
       title: t`API`,
       link: docLinks.api,
       external: true,
-      description: t`InvenTree API documentation`
+      description: t`klerk API documentation`
     },
     {
       id: 'developer',
       title: t`Developer Manual`,
       link: docLinks.developer,
       external: true,
-      description: t`InvenTree developer manual`
+      description: t`klerk developer manual`
     },
     {
       id: 'faq',
@@ -114,7 +114,7 @@ export function DocumentationLinks(): MenuLinkItem[] {
       title: t`GitHub Repository`,
       link: docLinks.github,
       external: true,
-      description: t`InvenTree source code on GitHub`
+      description: t`klerk source code on GitHub`
     }
   ];
 }
@@ -166,14 +166,14 @@ export function AboutLinks(
     {
       id: 'instance',
       title: t`System Information`,
-      description: t`About this InvenTree instance`,
+      description: t`About this klerk instance`,
       icon: 'info',
       action: serverInfo
     },
     {
       id: 'licenses',
       title: t`License Information`,
-      description: t`Licenses for dependencies of the InvenTree software`,
+      description: t`Licenses for dependencies of the klerk software`,
       icon: 'license',
       action: licenseInfo
     }
@@ -184,7 +184,7 @@ export function AboutLinks(
     base_items.push({
       id: 'about',
       title: t`About Klerk`,
-      description: t`About the InvenTree Project`,
+      description: t`About the klerk Project`,
       icon: 'info',
       action: aboutInvenTree
     });

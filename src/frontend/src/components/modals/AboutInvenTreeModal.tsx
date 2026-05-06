@@ -110,8 +110,8 @@ const AboutContent = ({
   const tableData = [
     {
       ref: 'server',
-      title: <Trans>InvenTree Version</Trans>,
-      link: 'https://github.com/inventree/InvenTree/releases',
+      title: <Trans>Klerk Version</Trans>,
+      link: 'https://ggoogle.com',
       copy: true
     },
     {

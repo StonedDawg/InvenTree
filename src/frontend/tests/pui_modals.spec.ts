@@ -155,7 +155,7 @@ test('Spotlight - No Keys', async ({ browser }) => {
       name: 'Documentation Visit the documentation to learn more About Klerk'
     })
     .click();
-  await page.waitForURL('https://docs.inventree.org/**');
+  await page.waitForURL('https://docs.Klerk.org/**');
 
   // TODO: Test addition of new actions
 });

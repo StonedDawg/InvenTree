@@ -40,7 +40,7 @@ export function getActions(navigate: NavigateFunction) {
       {
         id: 'dashboard',
         label: t`Dashboard`,
-        description: t`Go to the InvenTree dashboard`,
+        description: t`Go to the Klerk dashboard`,
         onClick: () => navigate('/'),
         leftSection: <IconLink size='1.2rem' />
       },
@@ -56,14 +56,14 @@ export function getActions(navigate: NavigateFunction) {
       {
         id: 'about',
         label: t`About Klerk`,
-        description: t`About the InvenTree org`,
+        description: t`About the Klerk org`,
         onClick: () => aboutInvenTree(),
         leftSection: <IconLink size='1.2rem' />
       },
       {
         id: 'server-info',
         label: t`Server Information`,
-        description: t`About this InvenTree instance`,
+        description: t`About this Klerk instance`,
         onClick: () => serverInfo(),
         leftSection: <IconLink size='1.2rem' />
       },
@@ -171,7 +171,7 @@ export function getActions(navigate: NavigateFunction) {
       _actions.push({
         id: 'plugin-settings',
         label: t`Plugins`,
-        description: t`Manage InvenTree plugins`,
+        description: t`Manage Klerk plugins`,
         onClick: () => navigate('/settings/admin/plugin'),
         leftSection: <IconPlug size='1.2rem' />
       });
