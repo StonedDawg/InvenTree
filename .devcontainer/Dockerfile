@@ -16,6 +16,13 @@ ENV INVENTREE_CONFIG_FILE="${INVENTREE_DATA_DIR}/config.yaml"
 ENV INVENTREE_SECRET_KEY_FILE="${INVENTREE_DATA_DIR}/secret_key.txt"
 ENV INVENTREE_OIDC_PRIVATE_KEY_FILE="${INVENTREE_DATA_DIR}/oidc.pem"
 
+
+# customize
+ENV INVENTREE_CUSTOMIZE={"login_message":"Hello World","site_header":"klerk","navbar_message":"klerk BETA"}
+#ENV INVENTREE_GLOBAL_SETTINGS=
+#ENV INVENTREE_CUSTOM_LOGO=./inventree.svg
+#ENV INVENTREE_CUSTOM_SPLASH
+
 # Required for running playwright within devcontainer
 ENV DISPLAY=:0
 ENV LIBGL_ALWAYS_INDIRECT=1
